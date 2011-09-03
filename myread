@@ -36,7 +36,7 @@ More about READMEs
         $ git init
         
         $ touch README......
-        
+        *****************...............****************
 
     Open the new README file found in your Hello-World directory in a text editor and add the text “Hello World!”
  When you are finished, save and close the file.
