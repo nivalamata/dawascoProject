@@ -26,10 +26,12 @@ public class Javalabel {
 		JLabel southLabel =new JLabel(labelIcon);
 		//set the label to display text (as well as Icon)
 		southLabel.setText("am from south");
-		//create a frame to hold the labels
+		//create a frame to hold the labels 
+		JLabel label= new JLabel("this is my life")
 		JFrame application =new JFrame();
 		application.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		application.add(northLabel,BorderLayout.NORTH);
+		application.add(label,BorderLayout.CENTER);
 		application.add(centralLabel,BorderLayout.CENTER);
 		application.add(southLabel,BorderLayout.SOUTH);
 		application.setSize(300,300);
